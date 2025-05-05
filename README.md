@@ -44,9 +44,12 @@ A **Spring Boot REST API** that provides full CRUD (Create, Read, Update, Delete
 - MySQL (create a database, e.g., `employee_db`)
 
 ### Getting Started
+
 ###Clone the Repository
+```
 git clone <repository-url>
 cd employee-management-system
+```
 Configure `application.properties`
 
 Add these in `src/main/resources/application.properties`:
@@ -77,6 +80,7 @@ Use Postman or similar tools to test APIs.
 Validate database entries via MySQL Workbench or CLI.
 
 ### Future Enhancements
+
 1. Role-Based Access Control (RBAC) : Implement Admin, Manager, and Employee roles with varying access levels (using Spring Security and JWT).
 
 2. Department & Address: Support sub-departments, multiple address types, and multiple addresses per employee.
@@ -92,4 +96,5 @@ Validate database entries via MySQL Workbench or CLI.
 7. Frontend: Build a responsive UI, employee dashboard, real-time updates, and advanced search/filter.
 
 ## License
+
 This project is licensed.
