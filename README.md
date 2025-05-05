@@ -1,6 +1,6 @@
 # Employee Management System
 
-A **Spring Boot REST API** that provides full CRUD (Create, Read, Update, Delete) functionality for managing employee records. This project demonstrates how to build a clean, layered backend architecture using Spring Boot, JPA, and either H2 or MySQL databases.
+A Spring Boot REST API that provides full CRUD (Create, Read, Update, Delete) functionality for managing employee records. This project demonstrates how to build a clean, layered backend architecture using Spring Boot, JPA, and either H2 or MySQL databases.
 ---
 
 ## Features
@@ -76,10 +76,10 @@ mvn spring-boot:run
 
 ### Testing the Application
 
-Use Postman or similar tools to test APIs.
-Validate database entries via MySQL Workbench or CLI.
+- Use Postman or similar tools to test APIs.
+- Validate database entries via MySQL Workbench or CLI.
 
-### Future Enhancements
+## Future Enhancements
 
 1. Role-Based Access Control (RBAC) : Implement Admin, Manager, and Employee roles with varying access levels (using Spring Security and JWT).
 
